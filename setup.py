@@ -3,15 +3,16 @@ from setuptools import setup
 readme = open("./README.md","r")
 
 setup(
-    name="savepackage",
-    packages=["savepackage"],
-    version="0.1",
-    description="Esta es la direccion de mi paquete",
-    author="Wendy",
-    author_email="wendy.espinoza013@gmail.com"
-    url=''
-    downloas_url=''
-    classifiers = [ ],
+    name='datacopier',
+    packages=['copyfiles'],
+    version='0.1',
+    description='Esta es la direccion de mi paquete',
+    long_description=readme.read(),
+    long_description_content_type="text/markdown",
+    author='Wendy Espinoza',
+    author_email='wendy.espinoza013@gmail.com',
+    install_requires=['os','shutil'],
+    url='https://github.com/Wendy013/DATACOPIER',
     license = 'MIT',
     include_package_data=True
 )
