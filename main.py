@@ -1,9 +1,9 @@
-from PYPIEJEMPLO import copy_files
+from copier import *
 
-saludo = saludo(nombre="Wendy Espinoza")
+entrance = "D:/Wendy/Documents/EJEMPLOCOPIER/raw"
+output= "D:/Wendy/Documents/EJEMPLOCOPIER/output"
 
-print(saludo.saludo_Wendy)
-
+copy_folder(entrance, output)
 
 
 
